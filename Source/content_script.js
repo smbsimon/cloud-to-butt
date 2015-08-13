@@ -1,9 +1,9 @@
-findAndReplace('Creemee', 'Soft serve', document);
-findAndReplace('Creamee', 'Soft serve', document);
+findAndReplace('Creemee', 'Soft Serve', document);
+findAndReplace('Creamee', 'Soft Serve', document);
 findAndReplace('creemee', 'soft serve', document);
 findAndReplace('creamee', 'soft serve', document);
-findAndReplace('Creemees', 'Soft serves', document);
-findAndReplace('Creamees', 'Soft serves', document);
+findAndReplace('Creemees', 'Soft Serves', document);
+findAndReplace('Creamees', 'Soft Serves', document);
 findAndReplace('creemees', 'soft serves', document);
 findAndReplace('creamees', 'soft serves', document);
 

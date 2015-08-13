@@ -1,4 +1,4 @@
-creemee to soft serve
+🍦 creemee to soft serve 🍦
 =============
 
 chrome extension that replaces occurrences of 'creemee' with 'soft serve'

@@ -2,6 +2,10 @@ findAndReplace('Creemee', 'Soft serve', document);
 findAndReplace('Creamee', 'Soft serve', document);
 findAndReplace('creemee', 'soft serve', document);
 findAndReplace('creamee', 'soft serve', document);
+findAndReplace('Creemees', 'Soft serves', document);
+findAndReplace('Creamees', 'Soft serves', document);
+findAndReplace('creemees', 'soft serves', document);
+findAndReplace('creamees', 'soft serves', document);
 
 function findAndReplace(a, b, el) {
     if (!el) el = document.body;

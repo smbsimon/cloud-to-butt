@@ -1,15 +1,20 @@
 {
-	"manifest_version": 2,
-	"name": "Cloud To Butt",
-	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
-	"content_scripts": 
-	[
-		{
-			"matches": ["*://*/*"],
-			"js": ["content_script.js"],
-			"run_at": "document_end"
-		}
-	]
-}
+  "manifest_version": 2,
+  "name": "Creemee to Soft Serve",
+  "description": "This extension changes instances of the word 'creemee' or 'creamee' to 'soft serve.'",
+  "version": "1.0",
 
+  "browser_action": {
+    "default_icon": "soft-serve.png",
+    "default_title": "De-Creemee Me"
+  },
+
+  "content_scripts":
+  [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content_script.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
